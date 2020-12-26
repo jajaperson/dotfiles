@@ -5,11 +5,11 @@
 - clean: ["~"]
 
 - link:
-  ~/.SpaceVim.d: SpaceVim.d
-  ~/.Spacevim: SpaceVim
-  ~/.config/nvim: SpaceVim
+    ~/.SpaceVim.d: SpaceVim.d
+    # ~/.Spacevim: SpaceVim
+    # ~/.config/nvim: SpaceVim
 
-  # Add font installer <https://github.com/SpaceVim/SpaceVim/blob/751725315fe5f8147fd391fcd629dc06c52aa0af/docs/install.sh>
+# Add font installer <https://github.com/SpaceVim/SpaceVim/blob/751725315fe5f8147fd391fcd629dc06c52aa0af/docs/install.sh>
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
