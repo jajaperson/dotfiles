@@ -11,7 +11,7 @@ Pretty easy stuff.
 ```
 $ git clone https://github.com/jajaperson/dotfiles.git
 $ cd dotfiles
-$ ./instal
+$ ./install
 ```
 
 That's it.
@@ -32,8 +32,8 @@ I've used submodules for a bunch of things
 ## Rationale
 
 For zsh configuration, I opted to use three seperate files: [`.zshrc`](/zsh/zshrc),
-[`.zprofile`](/zsh/zprofile), and [`.zlogin`](/zsh/zlogin); as well as files outside of VCS: `.zshenv` and
-`.zprofile.local`.
+[`.zprofile`](/zsh/zprofile), and [`.zlogin`](/zsh/zlogin); as well as files
+outside of VCS: `.zshenv` and `.zprofile.local`.
 
 - `.zshenv` configures `$PATH`
 - `.zprofile` configures default environment variables
@@ -41,6 +41,8 @@ For zsh configuration, I opted to use three seperate files: [`.zshrc`](/zsh/zshr
 - `.zshrc` configures everything for interactive sessions
 - `.zlogin` runs any commands that need to run once everything else is set up.
 
-Then, I used a custom `$ZSH_CUSTOM` directory for custom plugins. This is symlinked to `~/.config/ohmyzsh`.
+Then, I used a custom `$ZSH_CUSTOM` directory for custom plugins. This is
+symlinked to `~/.config/ohmyzsh`.
 
-All custom SpaceVim configuration is located in the [`SpaceVim.d`](/SpaceVim.d) directory.
+All custom SpaceVim configuration is located in the [`SpaceVim.d`](/SpaceVim.d)
+directory.
