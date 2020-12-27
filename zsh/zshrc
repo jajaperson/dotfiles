@@ -1,0 +1,63 @@
+# .zshrc
+#
+# This dotfile configures zsh for interactive use. It should contain the following
+#
+# - Aliases
+# - Oh-my-zsh setup and plugins
+# - Completions
+# - Prompts
+# - Shell integrations
+# - Functions inended for interactive use.
+#
+
+# Aliases
+alias vtop="vtop --theme monokai"
+alias tree="tree --filelimit 32"
+alias clr="clear && printf '\e[3J'"
+alias getip="ipconfig getifaddr en1"
+alias vi=nvim
+alias vim=nvim
+alias hstack=stack
+alias machconf="vi ~/.zprofile.local"
+
+# Oh-my-zsh
+export ZSH="/Users/jamesjensen/.oh-my-zsh"
+ZSH_THEME="" # Using pure instead
+plugins=(
+  git
+  nvm
+  osx
+  zsh-syntax-highlighting
+  gpg-agent
+  poetry
+)
+
+source $ZSH/oh-my-zsh.sh
+
+# Completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+rm -f ~/.zcompdump; compinit -i
+
+# Shell Integration
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# User overrides
+
+# Pure theme
+autoload -U promptinit; promptinit
+prompt pure
+
+# pyenv
+eval "$(pyenv init -)"
+
+# Reset Bartender trial
+function bartender-reset() {
+  defaults write com.surteesstudios.Bartender trialStart4 "$(date +"%Y-%m-%d %l:%M:%S +0000")"
+}
+
+# GHUB command
+function ghub() {
+	open "https://ghub.io/$1"
+}
+

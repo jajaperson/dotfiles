@@ -1,0 +1,8 @@
+# .zlogin
+#
+# This dotfile is intended to run commands once the zsh shell is fully set up, 
+# i.e. .zshrc is already loaded in interactive mode.
+#
+
+# Reset the bartender trial automatically
+bartender-reset

@@ -1,0 +1,34 @@
+# .zprofile
+#
+# This dotfile is ran sourced .zshrc and .zlogin in both interactvive and non-
+# interactive modes. It should contain the following
+#
+# - Environment variables that don't need to be updated often that are not
+#   machine-specific
+# - User-defined functions intended for use in both interactive and non-
+#   interactive modes.
+#
+# Machine-specific environment variables should be defined in ~/.zprofile.local
+# and $PATH should be defined in ~/.zshenv
+
+source $HOME/.zprofile.local
+
+# Variables
+export GITHUB="$HOME/Documents/GitHub"
+export ZINFO_DEFAULTS="cwd-path-absolute git-overview git-last-commit date-time user platform node-v uptime"
+export ZINFO_NERDFONTS=1
+export DOTFILES="$GITHUB/dotfiles"
+export GPG_TTY=$(tty)
+
+# Functions
+
+## Reset Bartender trial
+function bartender-reset() {
+  defaults write com.surteesstudios.Bartender trialStart4 "$(date +"%Y-%m-%d %l:%M:%S +0000")"
+}
+
+## GHUB command
+function ghub() {
+	open "https://ghub.io/$1"
+}
+

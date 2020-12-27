@@ -5,7 +5,10 @@
     "link": {
       "~/.SpaceVim.d": "SpaceVim.d",
       "~/.Spacevim": "SpaceVim",
-      "~/.config/nvim": "SpaceVim"
+      "~/.config/nvim": "SpaceVim",
+      "~/.zshrc": "zsh/zshrc",
+      "~/.zprofile": "zsh/zprofile",
+      "~/.zlogin": "zsh/zlogin"
     }
   },
   {
