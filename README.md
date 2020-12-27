@@ -20,7 +20,7 @@ That's it.
 
 I've used submodules for a bunch of things
 
-- **[**`dotbot`\*\*](https://github.com/anishathalye/dotbot) — Manages the
+- [**`dotbot`**](https://github.com/anishathalye/dotbot) — Manages the
   dotfiles, handles symlinking, submodule updates, etc.
 - [**`SpaceVim`**](https://github.com/SpaceVim/SpaceVim.git) — A
   SpaceMacs-like Vim distribution with nice defaults.
@@ -31,8 +31,8 @@ I've used submodules for a bunch of things
 
 ## Rationale
 
-For zsh configuration, I opted to use three seperate files: `.zshrc`,
-`.zprofile`, and `.zlogin`; as well as files outside of VCS `.zshenv` and
+For zsh configuration, I opted to use three seperate files: [`.zshrc`](/zsh/zshrc),
+[`.zprofile`](/zsh/zprofile), and [`.zlogin`](/zsh/zlogin); as well as files outside of VCS: `.zshenv` and
 `.zprofile.local`.
 
 - `.zshenv` configures `$PATH`
@@ -43,4 +43,4 @@ For zsh configuration, I opted to use three seperate files: `.zshrc`,
 
 Then, I used a custom `$ZSH_CUSTOM` directory for custom plugins. This is symlinked to `~/.config/ohmyzsh`.
 
-All custom SpaceVim configuration is located in the `SpaceVim.d` directory.
+All custom SpaceVim configuration is located in the [`SpaceVim.d`](/SpaceVim.d) directory.
