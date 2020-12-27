@@ -1,3 +1,3 @@
 let g:neoformat_enabled_javascript = ['prettier']
 let g:neoformat_enabled_typescript = ['prettier']
-let g:vimfiler_ignore_pattern = '^\%(\.git\|\.DS_Store\)$'
+let g:defx_ignored_files = '^\%(\.git\|\.DS_Store\)$'
