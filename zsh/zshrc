@@ -27,9 +27,9 @@ plugins=(
   git
   nvm
   osx
-  zsh-syntax-highlighting
   gpg-agent
   poetry
+  zsh-syntax-highlighting # must be last
 )
 
 source $ZSH/oh-my-zsh.sh

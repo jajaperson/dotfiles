@@ -14,10 +14,15 @@
 source $HOME/.zprofile.local
 
 # Variables
+
+## Directories
 export GITHUB="$HOME/Documents/GitHub"
+export DOTFILES="$GITHUB/dotfiles"
+export ZSH_CUSTOM="$HOME/.config/ohmyzsh"
+
+## Configs
 export ZINFO_DEFAULTS="cwd-path-absolute git-overview git-last-commit date-time user platform node-v uptime"
 export ZINFO_NERDFONTS=1
-export DOTFILES="$GITHUB/dotfiles"
 export GPG_TTY=$(tty)
 
 # Functions

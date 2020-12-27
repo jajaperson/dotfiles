@@ -6,9 +6,12 @@
       "~/.SpaceVim.d": "SpaceVim.d",
       "~/.SpaceVim": "SpaceVim",
       "~/.config/nvim": "SpaceVim",
+      "~/.config/nvim": "SpaceVim",
+      "~/.oh-my-zsh": "ohmyzsh",
       "~/.zshrc": "zsh/zshrc",
       "~/.zprofile": "zsh/zprofile",
-      "~/.zlogin": "zsh/zlogin"
+      "~/.zlogin": "zsh/zlogin",
+      "~/.config/ohmyzsh": "zsh/ohmyzsh-custom"
     }
   },
   {
