@@ -1,16 +1,16 @@
 [submodule "dotbot"]
-	path = dotbot
+  path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
 [submodule "SpaceVim"]
-	path = SpaceVim
+  path = SpaceVim
   url = https://github.com/SpaceVim/SpaceVim.git
   ignore = dirty
 [submodule "ohmyzsh"]
-	path = ohmyzsh
+  path = ohmyzsh
   url = https://github.com/ohmyzsh/ohmyzsh
   ignore = dirty
 [submodule "zsh/ohmyzsh-custom/plugins/zsh-syntax-highlighting"]
-	path = zsh/ohmyzsh-custom/plugins/zsh-syntax-highlighting
+  path = zsh/ohmyzsh-custom/plugins/zsh-syntax-highlighting
   url = https://github.com/zsh-users/zsh-syntax-highlighting
   ignore = dirty
