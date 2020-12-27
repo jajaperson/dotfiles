@@ -2,7 +2,7 @@
 
 Putting one's dotfiles in a symlinked, version-controlled git repository is a
 good idea, so I did it. It by no means contains all my dotfiles, yet, but so
-far it contains what I deam most important.
+far it contains what I deem most important.
 
 ## Installation
 
