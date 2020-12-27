@@ -21,7 +21,7 @@ alias hstack=stack
 alias machconf="vi ~/.zprofile.local"
 
 # Oh-my-zsh
-export ZSH="/Users/jamesjensen/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="" # Using pure instead
 plugins=(
   git
@@ -39,25 +39,13 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 
 rm -f ~/.zcompdump; compinit -i
 
+## pyenv completions
+eval "$(pyenv init -)"
+
 # Shell Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# User overrides
 
 # Pure theme
 autoload -U promptinit; promptinit
 prompt pure
-
-# pyenv
-eval "$(pyenv init -)"
-
-# Reset Bartender trial
-function bartender-reset() {
-  defaults write com.surteesstudios.Bartender trialStart4 "$(date +"%Y-%m-%d %l:%M:%S +0000")"
-}
-
-# GHUB command
-function ghub() {
-	open "https://ghub.io/$1"
-}
 
