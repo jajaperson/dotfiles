@@ -4,4 +4,5 @@
 	ignore = dirty
 [submodule "SpaceVim"]
 	path = SpaceVim
-	url = https://github.com/SpaceVim/SpaceVim.git
+  url = https://github.com/SpaceVim/SpaceVim.git
+  ignore = dirty
