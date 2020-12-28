@@ -1,0 +1,21 @@
+# .zshenv
+#
+# This dotfile is always sourced, and should thus contain environment variables
+# which should be updated frequently. This includes:
+#
+# - $EDITOR
+# - $PATH
+#
+# Machine-specific $PATH updates should be defined in ~/.zshenv.local
+#
+
+# Path
+path=($path $HOME/.bin)
+export PATH
+
+# Other variables
+EDITOR="nvim"
+export EDITOR
+
+# Machine-specific
+source $HOME/.zshenv.local

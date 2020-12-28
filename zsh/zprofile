@@ -9,7 +9,8 @@
 #   interactive modes.
 #
 # Machine-specific environment variables should be defined in ~/.zprofile.local
-# and $PATH should be defined in ~/.zshenv
+# and $PATH should be defined in zshenv.
+#
 
 source $HOME/.zprofile.local
 
