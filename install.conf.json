@@ -14,7 +14,11 @@
       "~/.zprofile": "zsh/zprofile",
       "~/.zlogin": "zsh/zlogin",
       "~/.config/ohmyzsh": "zsh/ohmyzsh-custom",
-      "~/.config/iterm2": "iterm2"
+      "~/.config/iterm2": "iterm2",
+      "~/Library/Fonts": {
+        "glob": true,
+        "path": "fonts/*"
+      }
     }
   },
   {
