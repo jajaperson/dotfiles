@@ -8,6 +8,7 @@
       "~/.config/nvim": "SpaceVim",
       "~/.config/nvim": "SpaceVim",
       "~/.oh-my-zsh": "ohmyzsh",
+      "~/.config/p10k": "zsh/p10k",
       "~/.zshenv": "zsh/zshenv",
       "~/.zshrc": "zsh/zshrc",
       "~/.zprofile": "zsh/zprofile",
