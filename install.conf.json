@@ -13,7 +13,8 @@
       "~/.zshrc": "zsh/zshrc",
       "~/.zprofile": "zsh/zprofile",
       "~/.zlogin": "zsh/zlogin",
-      "~/.config/ohmyzsh": "zsh/ohmyzsh-custom"
+      "~/.config/ohmyzsh": "zsh/ohmyzsh-custom",
+      "~/.config/iterm2": "iterm2"
     }
   },
   {
