@@ -40,6 +40,8 @@ I've used submodules for a bunch of things
   improvement over the old [powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k) 
   prompt, which can act as a much faster version of the minimal
   [pure](https://github.com/sindresorhus/pure) prompt.
+- [**`zsh-completions`**](https://github.com/zsh-users/zsh-completions) — covers some
+  completions `zsh` doesn't.
 
 ## Rationale
 
