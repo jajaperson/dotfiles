@@ -6,7 +6,6 @@
       "~/.SpaceVim.d": "SpaceVim.d",
       "~/.SpaceVim": "SpaceVim",
       "~/.config/nvim": "SpaceVim",
-      "~/.config/nvim": "SpaceVim",
       "~/.oh-my-zsh": "ohmyzsh",
       "~/.config/p10k": "zsh/p10k",
       "~/.zshenv": "zsh/zshenv",
@@ -14,11 +13,7 @@
       "~/.zprofile": "zsh/zprofile",
       "~/.zlogin": "zsh/zlogin",
       "~/.config/ohmyzsh": "zsh/ohmyzsh-custom",
-      "~/.config/iterm2": "iterm2",
-      "~/Library/Fonts": {
-        "glob": true,
-        "path": "fonts/*"
-      }
+      "~/.config/iterm2": "iterm2"
     }
   },
   {
