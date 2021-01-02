@@ -23,3 +23,7 @@
   url = https://github.com/romkatv/powerlevel10k.git
   ignore = dirty
 
+[submodule "zsh/ohmyzsh-custom/plugins/zsh-completions"]
+	path = zsh/ohmyzsh-custom/plugins/zsh-completions
+  url = https://github.com/zsh-users/zsh-completions
+  ignore = dirty

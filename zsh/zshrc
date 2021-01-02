@@ -33,14 +33,14 @@ plugins=(
   osx
   gpg-agent
   poetry
+  zsh-completions
+  user-completions
   zsh-syntax-highlighting # must be last
 )
 
 source $ZSH/oh-my-zsh.sh
 
 # Completions
-fpath=(/usr/local/share/zsh-completions $fpath)
-
 rm -f ~/.zcompdump; compinit -i
 
 ## pyenv completions

@@ -12,7 +12,6 @@
 # and $PATH should be defined in zshenv.
 #
 
-source $HOME/.zprofile.local
 
 # Variables
 
@@ -20,6 +19,7 @@ source $HOME/.zprofile.local
 export GITHUB="$HOME/Documents/GitHub"
 export DOTFILES="$GITHUB/dotfiles"
 export ZSH_CUSTOM="$HOME/.config/ohmyzsh"
+export COMP_CUSTOM="$ZSH_CUSTOM/plugins/user-completions/src"
 
 ## Configs
 export ZINFO_DEFAULTS="cwd-path-absolute git-overview git-last-commit date-time user platform node-v uptime"
@@ -38,3 +38,5 @@ function ghub() {
 	open "https://ghub.io/$1"
 }
 
+# Machine-specific
+source $HOME/.zprofile.local
