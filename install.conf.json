@@ -18,8 +18,7 @@
   },
   {
     "shell": [
-      ["git submodule update --init --recursive", "Installing submodules"],
-      ["cd ./SpaceVim/bundle/vimproc.vim/ && make", "Building vimproc manually"]
+      ["git submodule update --init --recursive", "Installing submodules"]
     ]
   }
 ]

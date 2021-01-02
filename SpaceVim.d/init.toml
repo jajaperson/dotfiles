@@ -23,10 +23,23 @@
   repo = "mhartington/oceanic-next"
   merged = false
 
+[[custom_plugins]]
+  repo = "Shougo/vimproc.vim"
+  merged = false
+  build = "make"
+
 [[layers]]
   name = 'autocomplete'
   auto_completion_return_key_behavior = "complete"
   auto_completion_tab_key_behavior = "smart"
+
+[[layers]]
+  name="lsp"
+  filetypes = [
+    "rust"
+  ]
+  [layers.override_cmd]
+    rust = ["rls"]
 
 [[layers]]
   name = 'format'
