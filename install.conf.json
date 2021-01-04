@@ -3,16 +3,16 @@
   { "clean": ["~"] },
   {
     "link": {
-      "~/.SpaceVim.d": "SpaceVim.d",
-      "~/.SpaceVim": "SpaceVim",
-      "~/.config/nvim": "SpaceVim",
-      "~/.oh-my-zsh": "ohmyzsh",
+      "~/.SpaceVim.d": "vim/custom",
+      "~/.SpaceVim": "vim/SpaceVim",
+      "~/.config/nvim": "vim/SpaceVim",
+      "~/.oh-my-zsh": "zsh/ohmyzsh",
       "~/.config/p10k": "zsh/p10k",
       "~/.zshenv": "zsh/zshenv",
       "~/.zshrc": "zsh/zshrc",
       "~/.zprofile": "zsh/zprofile",
       "~/.zlogin": "zsh/zlogin",
-      "~/.config/ohmyzsh": "zsh/ohmyzsh-custom",
+      "~/.config/ohmyzsh": "zsh/custom",
       "~/.config/iterm2": "iterm2"
     }
   },

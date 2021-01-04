@@ -4,26 +4,26 @@
   ignore = dirty
 
 [submodule "SpaceVim"]
-  path = SpaceVim
+	path = vim/SpaceVim
   url = https://github.com/SpaceVim/SpaceVim.git
   ignore = dirty
 
 [submodule "ohmyzsh"]
-  path = ohmyzsh
+	path = zsh/ohmyzsh
   url = https://github.com/ohmyzsh/ohmyzsh.git
   ignore = dirty
 
-[submodule "zsh/ohmyzsh-custom/plugins/zsh-syntax-highlighting"]
-  path = zsh/ohmyzsh-custom/plugins/zsh-syntax-highlighting
+[submodule "zsh-syntax-highlighting"]
+	path = zsh/custom/plugins/zsh-syntax-highlighting
   url = https://github.com/zsh-users/zsh-syntax-highlighting.git
   ignore = dirty
 
-[submodule "zsh/ohmyzsh-custom/themes/powerlevel10k"]
-  path = zsh/ohmyzsh-custom/themes/powerlevel10k
+[submodule "powerlevel10k"]
+	path = zsh/custom/themes/powerlevel10k
   url = https://github.com/romkatv/powerlevel10k.git
   ignore = dirty
 
-[submodule "zsh/ohmyzsh-custom/plugins/zsh-completions"]
-	path = zsh/ohmyzsh-custom/plugins/zsh-completions
+[submodule "zsh-completions"]
+	path = zsh/custom/plugins/zsh-completions
   url = https://github.com/zsh-users/zsh-completions
   ignore = dirty
