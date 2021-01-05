@@ -1,23 +1,30 @@
-# TODO: switch back to vimscript
+# SpaceVim init.toml
+#
+# Because you aren't alpha enough to mess with the VimScript.
+#
 
 [options]
-   # set spacevim theme. by default colorscheme layer is not loaded,
-   # if you want to use more colorscheme, please load the colorscheme
-   # layer
-   colorscheme = "OceanicNext"
-   colorscheme_bg = "dark"
-   # Disable guicolors in basic mode, many terminals do not support 24bit
-   # true colors
-   enable_guicolors = true
-   # Disable statusline separator, if you want to use other value, please
-   # install nerd fonts
-   statusline_separator = "arrow"
-   statusline_iseparator = "arrow"
-   buffer_index_type = 4
-   enable_tabline_filetype_icon = true
-   enable_statusline_mode = false
-   filemanager = "defx"
-   filetree_direction = "left"
+  # set spacevim theme. by default colorscheme layer is not loaded,
+  # if you want to use more colorscheme, please load the colorscheme
+  # layer
+  colorscheme = "OceanicNext"
+  colorscheme_bg = "dark"
+  # Disable guicolors in basic mode, many terminals do not support 24bit
+  # true colors
+  enable_guicolors = true
+  # Disable statusline separator, if you want to use other value, please
+  # install nerd fonts
+  statusline_separator = "arrow"
+  statusline_iseparator = "arrow"
+  buffer_index_type = 4
+  enable_tabline_filetype_icon = true
+  enable_statusline_mode = false
+  filemanager = "defx"
+  filetree_direction = "left"
+  autocomplete_method = "coc"
+  # Bootstrap lifecycle functions
+  bootstrap_before = 'user_conf#before'
+  bootstrap_after = 'user_conf#after'
 
 [[custom_plugins]]
   repo = "mhartington/oceanic-next"
@@ -27,6 +34,10 @@
   repo = "Shougo/vimproc.vim"
   merged = false
   build = "make"
+
+[[custom_plugins]]
+  repo = "neoclide/coc.nvim"
+  merged = false
 
 [[layers]]
   name = 'autocomplete'
