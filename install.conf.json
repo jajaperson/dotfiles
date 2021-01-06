@@ -13,12 +13,15 @@
       "~/.zprofile": "zsh/zprofile",
       "~/.zlogin": "zsh/zlogin",
       "~/.config/ohmyzsh": "zsh/custom",
-      "~/.config/iterm2": "iterm2"
+      "~/.config/iterm2": "iterm2",
+      "~/.gnupg/gpg-agent.conf": "git/gpg/gpg-agent.conf"
     }
   },
   {
     "shell": [
-      ["git submodule update --init --recursive", "Installing submodules"]
+      ["git submodule update --init --recursive", "Installing submodules..."],
+      ["./brew-install", "Checking homebrew installation..."],
+      ["brew bundle --no-lock --file=Brewfile", "Installing from homebrew..."]
     ]
   }
 ]

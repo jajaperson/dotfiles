@@ -39,6 +39,10 @@
   repo = "neoclide/coc.nvim"
   merged = false
 
+[[custom_plugins]]
+  repo = "bfontaine/Brewfile.vim"
+  merged = false
+
 [[layers]]
   name = 'autocomplete'
   auto_completion_return_key_behavior = "complete"
