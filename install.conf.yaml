@@ -1,0 +1,32 @@
+- defaults:
+    link:
+      relink: true
+
+- clean:
+    - "~"
+
+- link:
+    "~/.SpaceVim.d": vim/custom
+    "~/.SpaceVim": vim/SpaceVim
+    "~/.config/nvim": vim/SpaceVim
+    "~/.oh-my-zsh": zsh/ohmyzsh
+    "~/.config/p10k": zsh/p10k
+    "~/.zshenv": zsh/zshenv
+    "~/.zshrc": zsh/zshrc
+    "~/.zprofile": zsh/zprofile
+    "~/.zlogin": zsh/zlogin
+    "~/.config/ohmyzsh": zsh/custom
+    "~/.config/iterm2": iterm2
+    "~/.gnupg/gpg-agent.conf": git/gpg/gpg-agent.conf
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules...]
+    - command: "./brew-install"
+      description: Checking homebrew installation...
+      quiet: true
+      stdin: true
+      stdout: true
+      stderr: true
+    - command: brew bundle --no-lock --file=Brewfile
+      description: Installing tools from homebrew...
+      stdout: true
