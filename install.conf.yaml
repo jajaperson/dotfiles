@@ -21,7 +21,7 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules...]
-    - command: "./brew-install"
+    - command: "./scripts/brew-install"
       description: Checking homebrew installation...
       quiet: true
       stdin: true
@@ -30,3 +30,7 @@
     - command: brew bundle --no-lock --file=Brewfile
       description: Installing tools from homebrew...
       stdout: true
+    - command: "./scripts/defaults"
+      description: Configuring preferences via defaults...
+      quiet: true
+
