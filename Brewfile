@@ -1,5 +1,5 @@
 # Brewfile
-# 
+#
 # Installs important tools.
 #
 

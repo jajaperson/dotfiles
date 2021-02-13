@@ -10,7 +10,7 @@
 #
 
 # Path
-path=($path $HOME/.bin)
+path=($path $HOME/.bin $HOME/.local/bin $HOME/.deno/bin)
 export PATH
 
 # Other variables
