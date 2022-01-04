@@ -15,14 +15,12 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Aliases
-alias vtop="vtop --theme monokai"
 alias tree="tree --filelimit 32"
 alias clr="clear && printf '\e[3J'"
 alias getip="ipconfig getifaddr en1"
 alias vi=nvim
 alias vim=nvim
-alias hstack=stack
-alias brundle="brew bundle --no-lock --file=$DOTFILES/Brewfile"
+alias brundle="brew bundle --file=$DOTFILES/Brewfile"
 
 # Oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
@@ -30,7 +28,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
   git
   nvm
-  osx
+  macos
   gpg-agent
   poetry
   zsh-completions

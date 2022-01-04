@@ -4,3 +4,5 @@
 # SpaceVim
 vim/custom/.netrwhist
 
+# Homebrew
+Brewfile.lock.json

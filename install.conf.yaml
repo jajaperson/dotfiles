@@ -27,7 +27,7 @@
       stdin: true
       stdout: true
       stderr: true
-    - command: brew bundle --no-lock --file=Brewfile
+    - command: brew bundle --file=Brewfile
       description: Installing tools from homebrew...
       stdout: true
     - command: "./scripts/defaults"

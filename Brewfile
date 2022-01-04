@@ -37,7 +37,6 @@ brew "rogue"
 ## Cask
 cask "iterm2-nightly"
 cask "monitorcontrol"
-cask "typora"
 cask "multimc"
 cask "mactex"
 cask "bartender"
