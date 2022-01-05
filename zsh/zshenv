@@ -10,7 +10,7 @@
 #
 
 # Path
-path=($path $HOME/.bin $HOME/.local/bin $HOME/.deno/bin)
+path=(~/.pyenv/shims $path $HOME/.bin $HOME/.local/bin $HOME/.deno/bin)
 export PATH
 
 # Other variables

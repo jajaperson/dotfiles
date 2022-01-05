@@ -5,6 +5,9 @@
 - clean:
     - "~"
 
+- shell:
+  - [git submodule update --init --recursive, Installing submodules...]
+
 - link:
     "~/.SpaceVim.d": vim/custom
     "~/.SpaceVim": vim/SpaceVim
@@ -17,10 +20,10 @@
     "~/.zlogin": zsh/zlogin
     "~/.config/ohmyzsh": zsh/custom
     "~/.config/iterm2": iterm2
+    "~/.config/alacritty": alacritty
     "~/.gnupg/gpg-agent.conf": git/gpg/gpg-agent.conf
 
 - shell:
-    - [git submodule update --init --recursive, Installing submodules...]
     - command: "./scripts/brew-install"
       description: Checking homebrew installation...
       quiet: true
