@@ -8,6 +8,9 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules...]
 
+- create:
+  - ~/.config
+
 - link:
     "~/.SpaceVim.d": vim/custom
     "~/.SpaceVim": vim/SpaceVim
@@ -21,6 +24,10 @@
     "~/.config/ohmyzsh": zsh/custom
     "~/.config/iterm2": iterm2
     "~/.config/alacritty": alacritty
+    "~/.config/tmux": tmux
+    "~/.config/tmux-plugins/tpm":
+      create: true
+      path: tmux/tpm
     "~/.gnupg/gpg-agent.conf": git/gpg/gpg-agent.conf
 
 - shell:

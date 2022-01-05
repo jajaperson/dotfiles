@@ -20,6 +20,7 @@ export GITHUB="$HOME/Documents/GitHub"
 export DOTFILES="$GITHUB/dotfiles"
 export ZSH_CUSTOM="$HOME/.config/ohmyzsh"
 export COMP_CUSTOM="$ZSH_CUSTOM/plugins/user-completions/src"
+export XDG_CONFIG_HOME="$HOME/.config"
 
 ## Configs
 export ZINFO_DEFAULTS="cwd-path-absolute git-overview git-last-commit date-time user platform node-v uptime"

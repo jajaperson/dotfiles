@@ -36,12 +36,13 @@ I've used submodules for a bunch of things
   an introduction.
 - [**`zsh-syntax-highlighting`**](https://github.com/zsh-users/zsh-syntax-highlighting) —
   fish-style syntax highlighting.
-- [**`powerlevel10k`**](https://github.com/romkatv/powerlevel10k) — an 
-  improvement over the old [powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k) 
+- [**`powerlevel10k`**](https://github.com/romkatv/powerlevel10k) — an
+  improvement over the old [powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k)
   prompt, which can act as a much faster version of the minimal
   [pure](https://github.com/sindresorhus/pure) prompt.
 - [**`zsh-completions`**](https://github.com/zsh-users/zsh-completions) — covers some
   completions `zsh` doesn't.
+- [`tpm`](https://github.com/tmux-plugins/tpm) — manages tmux packages
 
 ## Rationale
 
