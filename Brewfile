@@ -26,7 +26,7 @@ brew "nvm"
 brew "pyenv"
 brew "rustup-init"
 brew "haskell-stack"
-brew "deno"
+# brew "deno" # deno updates itself. TODO: Find another way to install deno on initial setup.
 ## Gimmicks
 brew "cmatrix"
 brew "cowsay"
