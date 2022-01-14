@@ -16,6 +16,7 @@
     "~/.SpaceVim.d": vim/custom
     "~/.SpaceVim": vim/SpaceVim
     "~/.config/nvim": vim/SpaceVim
+    "~/.config/coc/extensions/package.json": vim/custom/coc-extensions.package.json
     "~/.oh-my-zsh": zsh/ohmyzsh
     "~/.config/p10k": zsh/p10k
     "~/.zshenv": zsh/zshenv
