@@ -23,8 +23,8 @@
   # filetree_direction = "left"
   autocomplete_method = "coc"
   # Bootstrap lifecycle functions
-  bootstrap_before = 'user_conf#before'
-  bootstrap_after = 'user_conf#after'
+  bootstrap_before = "user_conf#before"
+  bootstrap_after = "user_conf#after"
 
 [[custom_plugins]]
   repo = "mhartington/oceanic-next"
@@ -36,8 +36,8 @@
   auto-completion-tab-key-behaviour = "complete"
 
 [[layers]]
-  name = 'shell'
-  default_position = 'top'
+  name = "shell"
+  default_position = "top"
   default_height = 30
 
 [[layers]]
@@ -70,18 +70,13 @@
   name = "lang#haskell"
 
 [[layers]]
-  name = 'format'
+  name = "format"
   format_on_save = true
 
 
 [[layers]]
- name = 'denite'
+ name = "denite"
 
 [[layers]]
- name = 'lang#python'
+ name = "lang#python"
 
-
-
-#[[layers]]
-#  name = 'lang#javascript'
-#
