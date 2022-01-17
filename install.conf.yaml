@@ -41,7 +41,7 @@
     - command: brew bundle --file=Brewfile
       description: Installing tools from homebrew...
       stdout: true
-        #  - command: "./scripts/defaults"
-        #   description: Configuring preferences via defaults...
-        #   quiet: true
+    # - command: "./scripts/defaults"
+    # description: Configuring preferences via defaults...
+    # quiet: true
 

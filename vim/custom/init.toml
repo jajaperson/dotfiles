@@ -9,18 +9,15 @@
   # layer
   colorscheme = "OceanicNext"
   colorscheme_bg = "dark"
-  # Disable guicolors in basic mode, many terminals do not support 24bit
-  # true colors
   enable_guicolors = true
-  # Disable statusline separator, if you want to use other value, please
-  # install nerd fonts
+  # Status line
   statusline_separator = "arrow"
   statusline_iseparator = "arrow"
+  enable_statusline_mode = true
   buffer_index_type = 4
   enable_tabline_filetype_icon = true
   enable_statusline_mode = false
   filemanager = "nerdtree"
-  # filetree_direction = "left"
   autocomplete_method = "coc"
   # Bootstrap lifecycle functions
   bootstrap_before = "user_conf#before"
@@ -62,6 +59,11 @@
 
 [[custom_plugins]]
   repo = "ryanoasis/vim-devicons"
+  merged = false
+
+[[custom_plugins]]
+  repo = "lambdalisue/guise.vim"
+  merged = false
 
 [[layers]]
   name="lang#rust"
@@ -72,7 +74,6 @@
 [[layers]]
   name = "format"
   format_on_save = true
-
 
 [[layers]]
  name = "denite"
