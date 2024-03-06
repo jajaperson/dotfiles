@@ -1,0 +1,40 @@
+[colors.bright]
+black = "#b0bdc4"
+blue = "#80d7fe"
+cyan = "#a7fdeb"
+green = "#b9f5c9"
+magenta = "#fe7faa"
+red = "#fe897f"
+white = "#fffefe"
+yellow = "#ffe47e"
+
+[colors.normal]
+black = "#546d79"
+blue = "#40c3fe"
+cyan = "#64fcda"
+green = "#69efad"
+magenta = "#fe3f80"
+red = "#fe5151"
+white = "#fffefe"
+yellow = "#ffd640"
+
+[colors.primary]
+background = "#263137"
+foreground = "#eceef0"
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "FiraCode Nerd Font"
+
+[window]
+decorations = "buttonless"
+
+[window.dimensions]
+columns = 200
+lines = 70
+
+[window.padding]
+x = 0
+y = 3
