@@ -36,7 +36,6 @@ brew "rogue"
 # Applications
 ## Cask
 cask "alacritty"
-cask "iterm2-nightly"
 cask "monitorcontrol"
 cask "multimc"
 cask "mactex"
