@@ -21,6 +21,8 @@ brew "gnupg"
 brew "pinentry-mac"
 brew "tmux"
 brew "asciinema"
+brew "zoxide"
+brew "fzf"
 ## Installers/version managers
 brew "nvm"
 brew "pyenv"
