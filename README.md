@@ -27,8 +27,7 @@ I've used submodules for a bunch of things
 
 ### Vim
 
-- [**`SpaceVim`**](https://github.com/SpaceVim/SpaceVim.git) — A
-  SpaceMacs-like Vim distribution with nice defaults.
+- [**`AstroNvim`**](https://github.com/AstroNvim/AstroNvim) — An extensible Vim distribution with nice defaults.
 
 ### `zsh` plugins
 
@@ -59,5 +58,3 @@ outside of VCS: `.zshenv` and `.zprofile.local`.
 Then, I used a custom `$ZSH_CUSTOM` directory for custom plugins. This is
 symlinked to `~/.config/ohmyzsh`.
 
-All custom SpaceVim configuration is located in the [`SpaceVim.d`](/SpaceVim.d)
-directory.

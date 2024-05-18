@@ -6,17 +6,14 @@
     - "~"
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules...]
+    - [git submodule update --init --recursive, Installing submodules...]
 
 - create:
-  - ~/.config
+    - ~/.config
 
 - link:
     "~/.editorconfig": default.editorconfig
-    "~/.SpaceVim.d": vim/custom
-    "~/.SpaceVim": vim/SpaceVim
-    "~/.config/nvim": vim/SpaceVim
-    "~/.config/coc/extensions/package.json": vim/custom/coc-extensions.package.json
+    "~/.config/nvim": vim
     "~/.oh-my-zsh": zsh/ohmyzsh
     "~/.config/p10k": zsh/p10k
     "~/.zshenv": zsh/zshenv
@@ -46,4 +43,3 @@
     # - command: "./scripts/defaults"
     # description: Configuring preferences via defaults...
     # quiet: true
-
