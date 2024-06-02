@@ -22,7 +22,6 @@ alias vi="$EDITOR"
 alias vim="$EDITOR"
 alias brundle="brew bundle --file=$DOTFILES/Brewfile"
 alias restore="tmux a -t 0"
-alias cd=z
 
 # Oh-my-zsh
 export ZSH="$HOME/.oh-my-zsh"
