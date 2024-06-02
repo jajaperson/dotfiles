@@ -15,6 +15,7 @@ brew "mas"
 brew "neovim"
 ## General tools
 brew "gh"
+brew "lazygit"
 brew "tree"
 brew "neofetch"
 brew "gnupg"
@@ -27,6 +28,7 @@ brew "fzf"
 brew "nvm"
 brew "pyenv"
 brew "rustup-init"
+brew "juliaup"
 brew "haskell-stack"
 # brew "deno" # deno updates itself. TODO: Find another way to install deno on initial setup.
 ## Gimmicks
