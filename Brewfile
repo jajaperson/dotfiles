@@ -27,7 +27,7 @@ brew "fzf"
 ## Installers/version managers
 brew "nvm"
 brew "pyenv"
-brew "rustup-init"
+brew "rustup"
 brew "juliaup"
 brew "haskell-stack"
 # brew "deno" # deno updates itself. TODO: Find another way to install deno on initial setup.
