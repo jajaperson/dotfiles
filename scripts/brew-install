@@ -5,7 +5,7 @@ function homebrew-install() {
     echo "Homebrew is already installed!"
   else
     echo "Homebrew is not installed. Installing it now..."
-    /bin/bash -c "$(curl -fssl https://raw.githubusercontent.com/homebrew/install/head/install.sh)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   fi
 }
 
