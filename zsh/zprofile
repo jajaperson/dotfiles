@@ -12,6 +12,8 @@
 # and $PATH should be defined in zshenv.
 #
 
+# Machine-specific
+source $HOME/.zprofile.local
 
 # Variables
 
@@ -21,6 +23,9 @@ export DOTFILES="$GITHUB/dotfiles"
 export ZSH_CUSTOM="$HOME/.config/ohmyzsh"
 export COMP_CUSTOM="$ZSH_CUSTOM/plugins/user-completions/src"
 export XDG_CONFIG_HOME="$HOME/.config"
+export GNUPG_HOME="$XDG_CONFIG_HOME/gnupg"
+export NVM_DIR="$XDG_CONFIG_HOME/nvm"
+export NVM_HOMEBREW=$(brew --prefix nvm)
 
 ## Configs
 export ZINFO_DEFAULTS="cwd-path-absolute git-overview git-last-commit date-time user platform node-v uptime"
@@ -29,15 +34,8 @@ export GPG_TTY=$(tty)
 
 # Functions
 
-## Reset Bartender trial
-function bartender-reset() {
-  defaults write com.surteesstudios.Bartender trialStart4 "$(date +"%Y-%m-%d %l:%M:%S +0000")"
-}
-
 ## GHUB command
 function ghub() {
 	open "https://ghub.io/$1"
 }
 
-# Machine-specific
-source $HOME/.zprofile.local

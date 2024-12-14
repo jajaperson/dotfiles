@@ -7,9 +7,12 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules...]
+    - [touch ~/.zprofile.local && touch ~/.zshenv.local]
 
 - create:
     - ~/.config
+    - ~/.config/nvm
+
 
 - link:
     "~/.editorconfig": default.editorconfig
@@ -26,7 +29,9 @@
     "~/.config/tmux-plugins/tpm":
       create: true
       path: tmux/tpm
-    "~/.gnupg/gpg-agent.conf": git/gpg/gpg-agent.conf
+    "~/.config/gnugpg/gpg-agent.cong":
+      create: true
+      path: git/gpg/gpg-agent.conf
 
 - shell:
     - command: "./scripts/brew-install"
@@ -41,3 +46,12 @@
     # - command: "./scripts/defaults"
     # description: Configuring preferences via defaults...
     # quiet: true
+
+- shell:
+    - command: "./scripts/node-install"
+      description: Checking node installation...
+      quiet: true
+      stdin: true
+      stdout: true
+      stderr: true
+

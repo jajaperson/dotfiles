@@ -4,9 +4,6 @@
 # i.e. .zshrc is already loaded in interactive mode.
 #
 
-# Reset the bartender trial automatically
-bartender-reset
-
 # Aliasing earlier causes issues
 alias cd=z
 
