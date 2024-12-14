@@ -3,10 +3,6 @@
 # Installs important tools.
 #
 
-tap "homebrew/core"
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
-
 # Required for mac apps
 brew "mas"
 
@@ -47,6 +43,7 @@ cask "bartender"
 ## Mas
 mas "Xcode", id: 497799835
 mas "Pixelmator Pro", id: 1289583905
+mas "Magnet", id: 441258766
 
 # Fonts
 ## Monospace

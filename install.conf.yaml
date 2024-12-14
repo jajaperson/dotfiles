@@ -28,8 +28,6 @@
       path: tmux/tpm
     "~/.gnupg/gpg-agent.conf": git/gpg/gpg-agent.conf
 
-    "~/.stack/config.yaml": stack/config.yaml
-
 - shell:
     - command: "./scripts/brew-install"
       description: Checking homebrew installation...
