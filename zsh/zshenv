@@ -10,7 +10,7 @@
 #
 
 # Path
-path=(~/.pyenv/shims $path $HOME/.bin $HOME/.local/bin $HOME/.deno/bin $(brew --prefix rustup)/bin)
+path=(~/.pyenv/shims $path $HOME/.bin $HOME/.local/bin $HOME/.deno/bin $(brew --prefix rustup)/bin $HOME/.cargo/bin)
 export PATH
 
 # Other variables
