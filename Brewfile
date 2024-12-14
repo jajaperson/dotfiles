@@ -20,6 +20,7 @@ brew "tmux"
 brew "asciinema"
 brew "zoxide"
 brew "fzf"
+brew "bottom"
 ## Installers/version managers
 brew "nvm"
 brew "pyenv"
@@ -41,6 +42,7 @@ cask "multimc"
 cask "mactex"
 cask "bartender"
 cask "obsidian"
+cask "texifier"
 ## Mas
 mas "Xcode", id: 497799835
 mas "Pixelmator Pro", id: 1289583905
