@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+function node-install() {
+  if (( $+commands[node] )); then
+    echo "Node is already installed!"
+  else
+    echo "Node is not installed. Installing it now..."
+    source ~/.zshrc
+    nvm install node
+  fi
+}
+
+node-install
+

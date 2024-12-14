@@ -40,6 +40,7 @@ cask "monitorcontrol"
 cask "multimc"
 cask "mactex"
 cask "bartender"
+cask "obsidian"
 ## Mas
 mas "Xcode", id: 497799835
 mas "Pixelmator Pro", id: 1289583905
