@@ -21,6 +21,8 @@ brew "asciinema"
 brew "zoxide"
 brew "fzf"
 brew "bottom"
+brew "readline"
+brew "gmp"
 ## Installers/version managers
 brew "nvm"
 brew "pyenv"
