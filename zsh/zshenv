@@ -9,6 +9,9 @@
 # Machine-specific $PATH updates should be defined in ~/.zshenv.local
 #
 
+# Machine-specific
+source $HOME/.zshenv.local
+
 # Path
 path=(~/.pyenv/shims $path $HOME/.bin $HOME/.local/bin $HOME/.deno/bin $(brew --prefix rustup)/bin $HOME/.cargo/bin)
 export PATH
@@ -17,5 +20,3 @@ export PATH
 EDITOR="nvim"
 export EDITOR
 
-# Machine-specific
-source $HOME/.zshenv.local
