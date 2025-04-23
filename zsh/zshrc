@@ -46,9 +46,6 @@ rm -f ~/.zcompdump; compinit -i
 ## pyenv completions
 eval "$(pyenv init -)"
 
-# Shell Integration for iterm2 (no longer used)
-# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
 # Functions
 
 ## Colour map
