@@ -23,3 +23,7 @@
 [submodule "tmux/plugins/tpm"]
 	path = tmux/tpm
   url = https://github.com/tmux-plugins/tpm
+
+[submodule "spacemacs"]
+	path = emacs/spacemacs
+	url = https://github.com/syl20bnr/spacemacs
