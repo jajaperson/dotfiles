@@ -30,6 +30,7 @@ brew "pyenv"
 brew "rustup"
 brew "juliaup"
 brew "haskell-stack"
+brew "luarocks"
 ## Languages
 brew "agda"
 # brew "deno" # deno updates itself. TODO: Find another way to install deno on initial setup.
