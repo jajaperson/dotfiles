@@ -10,6 +10,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.julia" },
-  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
   -- import/override with your plugins folder
 }

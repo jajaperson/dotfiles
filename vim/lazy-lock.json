@@ -16,6 +16,7 @@
   "cmp-latex-symbols": { "branch": "main", "commit": "86b68e6d6c550442d4a3f826e1b8358c5300824c" },
   "cornelis": { "branch": "master", "commit": "deda7eb399efe94cc49c645da7b6f94780fe0c19" },
   "crates.nvim": { "branch": "main", "commit": "73d2c590c74a0c582144987a4decb4a642755859" },
+  "deno-nvim": { "branch": "master", "commit": "5a2f9205df5539c4a0696e73893bf8d1b0cae406" },
   "friendly-snippets": { "branch": "main", "commit": "fc8f183479a472df60aa86f00e295462f2308178" },
   "gitsigns.nvim": { "branch": "main", "commit": "7010000889bfb6c26065e0b0f7f1e6aa9163edd9" },
   "guess-indent.nvim": { "branch": "main", "commit": "84a4987ff36798c2fc1169cbaff67960aed9776f" },
