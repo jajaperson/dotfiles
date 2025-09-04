@@ -26,6 +26,7 @@ brew "gmp"
 brew "rust-analyzer"
 ## Installers/version managers
 brew "nvm"
+brew "pnpm"
 brew "pyenv"
 brew "rustup"
 brew "juliaup"
