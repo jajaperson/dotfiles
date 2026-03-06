@@ -13,7 +13,17 @@
 source $HOME/.zshenv.local
 
 # Path
-path=(~/.pyenv/shims $path $HOME/.bin $HOME/.local/bin $HOME/.deno/bin $(brew --prefix rustup)/bin $HOME/.cargo/bin $HOME/.cabal/bin $HOME/.ghcup/bin)
+path=(
+  ~/.pyenv/shims $path
+  $HOME/.bin
+  $HOME/.local/bin
+  $HOME/.deno/bin
+  $(brew --prefix rustup)/bin
+  $HOME/.cargo/bin
+  $HOME/.cabal/bin
+  $HOME/.ghcup/bin
+  /Applications/Obsidian.app/Contents/MacOS
+)
 export PATH
 
 # Other variables
