@@ -30,7 +30,7 @@ brew "pnpm"
 brew "pyenv"
 brew "rustup"
 brew "juliaup"
-brew "haskell-stack"
+brew "ghcup"
 brew "luarocks"
 ## Languages
 brew "agda"
