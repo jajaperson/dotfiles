@@ -58,3 +58,4 @@ colormap() {
 
 # Prompt
 source ~/.config/p10k/conf.zsh
+
