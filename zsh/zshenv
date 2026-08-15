@@ -12,11 +12,26 @@
 # Machine-specific
 source $HOME/.zshenv.local
 
+# pnpm
+PNPM_HOME="$HOME/Library/pnpm"
+export PNPM_HOME
+
 # Path
-path=(~/.pyenv/shims $path $HOME/.bin $HOME/.local/bin $HOME/.deno/bin $(brew --prefix rustup)/bin $HOME/.cargo/bin)
+path=(
+  $path
+  $HOME/.bin
+  $HOME/.local/bin
+  $HOME/.deno/bin
+  $(brew --prefix rustup)/bin
+  $HOME/.cargo/bin
+  $HOME/.cabal/bin
+  $HOME/.ghcup/bin
+  /Applications/Obsidian.app/Contents/MacOS
+  $HOME/.pyenv/shims
+  $PNPM_HOME
+)
 export PATH
 
 # Other variables
 EDITOR="nvim"
 export EDITOR
-

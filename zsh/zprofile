@@ -38,4 +38,3 @@ export GPG_TTY=$(tty)
 function ghub() {
 	open "https://ghub.io/$1"
 }
-

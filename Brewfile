@@ -24,13 +24,13 @@ brew "bottom"
 brew "readline"
 brew "gmp"
 brew "rust-analyzer"
-brew "pandoc"
 ## Installers/version managers
 brew "nvm"
+brew "pnpm"
 brew "pyenv"
 brew "rustup"
 brew "juliaup"
-brew "haskell-stack"
+brew "ghcup"
 brew "luarocks"
 ## Languages
 brew "agda"
@@ -59,4 +59,3 @@ mas "Magnet", id: 441258766
 cask "font-fira-code-nerd-font"
 cask "font-fira-code"
 cask "font-fira-mono"
-
