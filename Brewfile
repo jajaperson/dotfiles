@@ -24,6 +24,7 @@ brew "bottom"
 brew "readline"
 brew "gmp"
 brew "rust-analyzer"
+brew "pandoc"
 ## Installers/version managers
 brew "nvm"
 brew "pyenv"
